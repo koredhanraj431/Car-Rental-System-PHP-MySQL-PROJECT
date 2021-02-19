@@ -4,7 +4,7 @@ The aim is to design and create a web based system for a company that rents out 
 
 Technologies used: PHP, MySQL, Bootstrap, HTML5, CSS3, Javascript,jQuery,Ajax.
 
-<img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/index.png" style="width:75%; margin: 4px auto" alt="User Panel">
+<img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/index.png" height="750" width="1000" style="margin: 4px auto" alt="User Panel">
 <br>
 ER Diagram : <br>
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/ER_diagram.png" style="width:75%; margin:4px auto" alt="ER Diagram">
