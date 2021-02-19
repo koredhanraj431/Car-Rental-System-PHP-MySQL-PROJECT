@@ -13,15 +13,14 @@ ER Diagram :</p>
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/ER_diagram.png" height="250" width="500" alt="ER Diagram">
 </p>
-<br/><br/>
-
+<br/>
 <p> About the project : 
 
  A. User Login:
 
-User can - 
+User can - <br />
 • Register through Registration page </p>
-<br/><br/>
+<br/>
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/register.png" height="250" width="500" alt="Register">
 </p>
@@ -34,7 +33,6 @@ User can -
 <br/>
 <p>
 • Recover Forget password after Email Verification </p>
-<br/><br/>
 <p>
 • Find car details and Book car </p><br>
 <p align="center">
@@ -46,46 +44,46 @@ User can -
 </p>
 <br/>
 <p> 
-• View Car booking history & Booking status in My bookings section.
-• Update their Profile & Password 
+• View Car booking history & Booking status in My bookings section. <br>
+• Update their Profile & Password <br>
 • Add New Testimonials </p>
-<br/>
+<br />
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/features.png" height="250" width="500" alt="User Features"></p>
-<br/><br/>
+<br />
 <p>
 • Subscribe to newsletters 
 • Logout.</p>
 <p>
 Also we have created a chatbot using jQuery, Ajax, PHP & MySQL for guest user queries.
 </p>
-<br/><br/>
+<br />
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/chatbot.png" height="250" width="500" alt="Chatbot">
-</p><br/>
+</p><br />
 <p>
 B. Admin Login:
 
-Admin can -
+Admin can - <br />
 • View registered users & their details </p>
-<br/><br/>
+<br/>
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/admin.png" height="250" width="500" alt="Dashboard">
 </p>
-<br/><br/>
+<br/>
 <p>
 • Manage & Add cars </p>
-<br/><br/>
+<br/>
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/add_cars.png" height="250" width="500" alt="Add Cars">
 </p>
-<br/><br/>
+<br/>
 <p align="center">
 <img src="https://github.com/koredhanraj431/Car-Rental-System-PHP-MySQL-PROJECT/blob/master/Project%20SS/manage_cars.png" height="250" width="500" alt="Manage cars">
-</p><br/><br/>
+</p><br/>
 <p>
-• Manage bookings 
-• Manage testimonial 
+• Manage bookings <br />
+• Manage testimonial <br />
 • Manage user-queries.
 </p>
 <br/>
