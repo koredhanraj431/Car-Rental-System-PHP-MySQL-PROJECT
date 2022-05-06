@@ -1,8 +1,3 @@
-
-
-Table structure for table `cars`
---
-
 CREATE TABLE IF NOT EXISTS `cars` (
   `car_id` int(11) NOT NULL AUTO_INCREMENT,
   `car_name` varchar(255) NOT NULL,
@@ -13,8 +8,6 @@ CREATE TABLE IF NOT EXISTS `cars` (
   `status` varchar(255) NOT NULL,
   PRIMARY KEY (`car_id`)
 ) ENGINE=InnoDB;
-
-//Cars
 
 INSERT INTO `cars` (`car_id`, `car_name`, `car_type`, `image`, `hire_cost`, `capacity`, `status`) VALUES
 (1, 'Chevrolet Cruz', 'Economy', 'E1.jpg', 5500, 5, 'Available'),
@@ -66,16 +59,12 @@ INSERT INTO `cars` (`car_id`, `car_name`, `car_type`, `image`, `hire_cost`, `cap
 (40, 'Traveller Force', 'Traveller', 'T4.png', 6500, 5, 'Available'),
 (41, 'Traveller School Bus 4020', 'Traveller', 'T5.jpg', 6000, 8, 'Available');
 
-
-User Login:
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `username` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-Admin Login :
 
 CREATE TABLE `carrental`.`admin_login` ( `id` INT NOT NULL , `uname` VARCHAR(10) NOT NULL , `pwd` VARCHAR(10) NOT NULL ) ENGINE = InnoDB;
 INSERT INTO `admin_login` (`id`, `uname`, `pwd`) VALUES ('1', 'admin', 'admin@123');
@@ -94,11 +83,6 @@ CREATE TABLE `carrental`.`reviews` ( `id` INT(11) NOT NULL AUTO_INCREMENT PRIMAR
 
 CREATE TABLE `carrental`.`payment` (`id` int(11) NOT NULL PRIMARY KEY, `name` VARCHAR(50) NOT NULL , `card_no` VARCHAR(255) NOT NULL, `expiry_date` VARCHAR(10) NOT NULL , `zip` VARCHAR(10) NOT NULL) ENGINE = InnoDB;
 
-INSERT INTO `payment` (`id`, `name`, `card_no`, `expiry_date`, `zip`) VALUES ('122351', 'Dhanraj Subhash Kore', '567834215674', '03/25', '411037');
-
 CREATE TABLE `carrental`.`newsletter` ( `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `email_id` VARCHAR(255) NOT NULL) ENGINE = InnoDB;
 
 CREATE TABLE `carrental`.`chatbot` ( `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `queries` VARCHAR(255) NOT NULL , `replies` VARCHAR(255) NOT NULL) ENGINE = InnoDB;
-
-CREATE TABLE `carrental`. ( `booking_date` TIMESTAMP NOT NULL , `name` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
-
